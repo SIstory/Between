@@ -1,0 +1,1 @@
+<project basedir="." default="dist" name="imagecopy"><target name="dist"><copy toFile="/ovitek-izsek.jpg" file="ovitek-izsek.jpg"/><copy toFile="epub/OPS/media/resource1.jpeg" file="./Charts/Ch10-Chart1.jpeg"/></target></project>

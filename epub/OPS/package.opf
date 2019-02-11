@@ -1,0 +1,152 @@
+
+<package xmlns="http://www.idpf.org/2007/opf"
+         unique-identifier="pub-id"
+         version="3.0"
+         prefix="rendition: http://www.idpf.org/vocab/rendition#">
+   <metadata xmlns:dcterms="http://purl.org/dc/terms/"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:opf="http://www.idpf.org/2007/opf">
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/" id="title">Between the House of Habsburg and Tito</dc:title>
+      <meta property="rendition:layout">reflowable</meta>
+      <meta property="rendition:spread">auto</meta>
+      <meta refines="#title" property="title-type">main</meta>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/" id="creator">Jurij Perovšek (ed.) and Bojan Godeša (ed.)Jurij Perovšek[pers.] and Bojan Godeša[pers.]</dc:creator>
+      <meta refines="#creator" property="role" scheme="marc:relators">aut</meta>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">en</dc:language>
+      <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/" id="pub-id">
+                    ISBN 978-961-6386-70-8 (html)
+                    ISBN 978-961-6386-70-8 (epub)
+                </dc:identifier>
+      <meta refines="#pub-id"
+            property="identifier-type"
+            scheme="onix:codelist5">15</meta>
+      <dc:description xmlns:dc="http://purl.org/dc/elements/1.1/">Between the House of Habsburg and Tito / Jurij Perovšek (ed.) and Bojan Godeša (ed.)Jurij Perovšek[pers.] and Bojan Godeša[pers.]</dc:description>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Inštitut za novejšo zgodovino / Institute of Contemporary History</dc:publisher>
+      <dc:date xmlns:dc="http://purl.org/dc/elements/1.1/" id="epub-publication">2016-11</dc:date>
+      <dc:rights xmlns:dc="http://purl.org/dc/elements/1.1/">Creative Commons Attribution</dc:rights>
+      <meta name="cover" content="cover-image"/>
+      <meta property="dcterms:modified">2018-01-22T07:21:36Z</meta>
+   </metadata>
+   <manifest>
+      <item href="ovitek-izsek.jpg"
+            id="cover-image"
+            properties="cover-image"
+            media-type="image/jpeg"/>
+      <item id="css" href="stylesheet.css" media-type="text/css"/>
+      <item id="print.css" href="print.css" media-type="text/css"/>
+      <item href="titlepage.html"
+            id="titlepage"
+            media-type="application/xhtml+xml"/>
+      <item href="titlepageback.html"
+            id="titlepageback"
+            media-type="application/xhtml+xml"/>
+      <item id="toc"
+            properties="nav"
+            href="epubtoc.html"
+            media-type="application/xhtml+xml"/>
+      <item id="start" href="index.html" media-type="application/xhtml+xml"/>
+      <item href="cip.html" id="cip" media-type="application/xhtml+xml"/>
+      <item href="titleAuthor.html"
+            id="titleAuthor"
+            media-type="application/xhtml+xml"/>
+      <item href="preface.html"
+            media-type="application/xhtml+xml"
+            id="section1"/>
+      <item href="ch01.html" media-type="application/xhtml+xml" id="section2"/>
+      <item href="ch02.html" media-type="application/xhtml+xml" id="section8"/>
+      <item href="ch03.html" media-type="application/xhtml+xml" id="section12"/>
+      <item href="ch04.html" media-type="application/xhtml+xml" id="section13"/>
+      <item href="ch05.html" media-type="application/xhtml+xml" id="section22"/>
+      <item href="ch06.html" media-type="application/xhtml+xml" id="section23"/>
+      <item href="ch07.html" media-type="application/xhtml+xml" id="section25"/>
+      <item href="ch08.html" media-type="application/xhtml+xml" id="section29"/>
+      <item href="ch09.html" media-type="application/xhtml+xml" id="section30"/>
+      <item href="ch10.html" media-type="application/xhtml+xml" id="section31"/>
+      <item href="ch11.html" media-type="application/xhtml+xml" id="section32"/>
+      <item href="ch12.html" media-type="application/xhtml+xml" id="section33"/>
+      <item href="ch13.html" media-type="application/xhtml+xml" id="section34"/>
+      <item href="ch14.html" media-type="application/xhtml+xml" id="section35"/>
+      <item href="bibliogr.html"
+            media-type="application/xhtml+xml"
+            id="section39"/>
+      <item href="persons.html" id="persons" media-type="application/xhtml+xml"/>
+      <item href="Charts/Ch10-Chart1.jpeg" id="image-1" media-type="image/jpeg"/>
+      <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+   </manifest>
+   <spine toc="ncx">
+      <itemref idref="titlepage" linear="yes"/>
+      <itemref idref="start" linear="yes"/>
+      <itemref idref="cip" linear="yes"/>
+      <itemref idref="titleAuthor" linear="yes"/>
+      <itemref idref="section1" linear="yes"/>
+      <itemref idref="section2" linear="yes"/>
+      <itemref idref="section8" linear="yes"/>
+      <itemref idref="section12" linear="yes"/>
+      <itemref idref="section13" linear="yes"/>
+      <itemref idref="section22" linear="yes"/>
+      <itemref idref="section23" linear="yes"/>
+      <itemref idref="section25" linear="yes"/>
+      <itemref idref="section29" linear="yes"/>
+      <itemref idref="section30" linear="yes"/>
+      <itemref idref="section31" linear="yes"/>
+      <itemref idref="section32" linear="yes"/>
+      <itemref idref="section33" linear="yes"/>
+      <itemref idref="section34" linear="yes"/>
+      <itemref idref="section35" linear="yes"/>
+      <itemref idref="section39" linear="yes"/>
+      <itemref idref="persons" linear="yes"/>
+      <itemref idref="titlepageback" linear="no"/>
+   </spine>
+   <guide>
+      <reference type="text" href="titlepage.html" title="Cover"/>
+      <reference type="text" title="Start" href="index.html"/>
+      <reference type="text" title="Colophon" href="cip.html"/>
+      <reference type="text" title="Contents" href="titleAuthor.html"/>
+      <reference type="text" href="preface.html" title="Preface"/>
+      <reference type="text"
+                 href="ch01.html"
+                 title="Late Habsburg Monarchy as a Framework of Political Coexistence: the Slovenian Case"/>
+      <reference type="text"
+                 href="ch02.html"
+                 title="The Questions of the National Cohabitation (or Lack Thereof), Democratisation and Political Pluralisation in Slovenia in the Austrian Constitutional Period"/>
+      <reference type="text"
+                 href="ch03.html"
+                 title="Slovenians and Yugoslavia 1918–1941"/>
+      <reference type="text"
+                 href="ch04.html"
+                 title="The Parliament is Nothing but a Fairground. On the Characteristics of Parliamentary Debate in the Kingdom of Serbs, Croats and Slovenes/Yugoslavia (1919–1939)"/>
+      <reference type="text"
+                 href="ch05.html"
+                 title="Questions of OF Democracy and Coexistence in the Opinion of Slovenian Marxists 1918–1941"/>
+      <reference type="text"
+                 href="ch06.html"
+                 title="Slovenian Resistance Movement and Yugoslavia 1941–1945"/>
+      <reference type="text"
+                 href="ch07.html"
+                 title="Armed Resistance in Slovenia: Slovenian Partisan Army 1941-1945 in Relationshio to the Yugoslav Command"/>
+      <reference type="text"
+                 href="ch08.html"
+                 title="Ideological Basis of Collaboration in Europe During World War II and a Short Comparison with Slovenia"/>
+      <reference type="text"
+                 href="ch09.html"
+                 title="Life in Occupied Slovenia During World War II"/>
+      <reference type="text"
+                 href="ch10.html"
+                 title="History of the Holocaust in Slovenia"/>
+      <reference type="text"
+                 href="ch11.html"
+                 title="The Time of Tito's Yugoslavia: Key Issues Between 1945 and 1980"/>
+      <reference type="text"
+                 href="ch12.html"
+                 title="Yugoslav-Italian Border and the Issue of Slovenian Access to the Sea"/>
+      <reference type="text"
+                 href="ch13.html"
+                 title="Slovenian Language and the Yugoslav People's Army"/>
+      <reference type="text"
+                 href="ch14.html"
+                 title="The Civil Repressive Apparatus of the Second Yugoslavia and Its Perception Among the Slovenian Public"/>
+      <reference type="text" href="bibliogr.html" title="Sources and References"/>
+      <reference type="text" title="List of Names" href="persons.html"/>
+      <reference href="titlepageback.html" type="text" title="About this book"/>
+   </guide>
+</package>
