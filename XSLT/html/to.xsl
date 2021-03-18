@@ -9,7 +9,7 @@
    exclude-result-prefixes="tei html teidocx xs"
    version="2.0">
 
-   <xsl:import href="../../../../publikacije-XSLT/sistory/html5-foundation6-chs/to.xsl"/>
+   <xsl:import href="../../../../pub-XSLT/Stylesheets/html5-foundation6-chs/to.xsl"/>
    
    <doc xmlns="http://www.oxygenxml.com/ns/doc/xsl" scope="stylesheet" type="stylesheet">
       <desc>
@@ -52,9 +52,13 @@
    </doc>
    
    <!-- Uredi parametre v skladu z dodatnimi zahtevami za pretvorbo te publikacije: -->
+   <xsl:param name="path-general">https://www2.sistory.si/publikacije/</xsl:param>
+   
+   <xsl:param name="homeLabel">SIstory</xsl:param>
+   <xsl:param name="homeURL">http://hdl.handle.net/11686/36073</xsl:param>
    
    <!-- Iz datoteke ../../../../publikacije-XSLT/sistory/html5-foundation6-chs/to.xsl -->
-   <xsl:param name="outputDir">/Users/administrator/Documents/moje/publikacije/Between/</xsl:param>
+   <xsl:param name="outputDir">sistory.36073/</xsl:param>
    
    <!-- Iz datoteke ../../../../publikacije-XSLT/sistory/html5-foundation6-chs/my-html_param.xsl -->
    <xsl:param name="title-bar-sticky">false</xsl:param>

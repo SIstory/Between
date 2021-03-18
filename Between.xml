@@ -12428,12 +12428,12 @@
                             in this article), but especially on my own database about the Jewish
                             population.</note>
                     </head>
-                    <!--<graphic xml:id="Ch10-Chart1" url="Charts/Ch10-Chart1.html"
-                        mimeType="application/javascript"/>-->
+                    <graphic xml:id="Ch10-Chart1" url="Charts/Ch10-Chart1.html"
+                        mimeType="application/javascript"/>
                     <graphic url="Charts/Ch10-Chart1.jpeg" mimeType="image/jpeg"
                         corresp="#Ch10-Chart1"/>
-                    <!--<graphic url="Charts/Ch10-Chart1.svg" mimeType="image/svg+xml"
-                        corresp="#Ch10-Chart1"/>-->
+                    <graphic url="Charts/Ch10-Chart1.svg" mimeType="image/svg+xml"
+                        corresp="#Ch10-Chart1"/>
                 </figure>
                 <p xml:id="p-272">Only a few Jews lived in the territory of the today's Slovenia
                     before World War II. The chart above demonstrates the growing and diminishing
