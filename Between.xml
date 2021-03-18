@@ -3094,8 +3094,8 @@
                 </docTitle>
                 <docAuthor>Jurij Perovšek (ed.)</docAuthor>
                 <docAuthor>Bojan Godeša (ed.)</docAuthor>
-                <!--<graphic
-                    url="http://www.sistory.si/publikacije/image/?id=36073&amp;width=350&amp;height=450"/>-->
+                <graphic
+                    url="https://www.sistory.si/publikacije/image/?id=36073&amp;width=350&amp;height=450"/>
                 <docImprint>
                     <pubPlace>Ljubljana</pubPlace>
                     <docDate>2016</docDate>
